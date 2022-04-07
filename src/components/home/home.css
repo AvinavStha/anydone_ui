@@ -105,7 +105,6 @@
 .content-title {
   font-size: 38px;
   color: #142a72;
-  padding-left: 1.5rem !important;
   font-weight: 700;
   margin-bottom: 3rem;
 }
@@ -127,10 +126,10 @@
   font-size: 24px !important;
   line-height: 37px !important;
   color: #656565;
-  font-weight: 500 !important;
+  font-weight: 550 !important;
   text-align: left !important;
   font-family: "Lato", sans-serif;
-  margin-bottom: 1.5rem !important;
+  margin-bottom: 3rem !important;
 }
 .arrow {
   color: #376af5;
@@ -139,7 +138,7 @@
   border: 2px solid #376af5;
   border-radius: 10px;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 550;
   line-height: 19px;
   letter-spacing: 1.12px;
   padding: 10px 20px;
@@ -162,10 +161,72 @@
   text-align: center !important;
 }
 
+.simplify {
+  padding-left: 3rem;
+  padding-right: 4rem;
+}
+
 .simplify-img {
+  padding-top: 50px;
   max-width: 60vh;
   height: auto;
   vertical-align: middle;
   border-style: none;
   text-align: center !important;
+}
+.simplify-text {
+  font-size: 32px !important;
+  line-height: 46px !important;
+  letter-spacing: 2px;
+  color: #333333;
+  font-weight: 550 !important;
+  text-align: left !important;
+  font-family: "Lato", sans-serif;
+  margin-bottom: 1.5rem !important;
+}
+
+.saving {
+  padding-left: 4rem;
+  padding-right: 5rem;
+}
+
+.saving-img {
+  padding-top: 50px;
+  max-width: 60vh;
+  height: auto;
+  vertical-align: middle;
+  border-style: none;
+  text-align: center !important;
+}
+.saving-text {
+  font-size: 32px !important;
+  line-height: 46px !important;
+  letter-spacing: 2px;
+  color: #333333;
+  font-weight: 550 !important;
+  text-align: left !important;
+  font-family: "Lato", sans-serif;
+  margin-bottom: 1.5rem !important;
+}
+
+.customer-content {
+  background: url(../../assets/images/Background.png);
+  min-height: 72vh;
+  padding: 72px;
+}
+.customer {
+  text-align: center;
+  padding-top: 3rem;
+}
+.customer-text {
+  font-size: 40px !important;
+  line-height: 54px !important;
+  letter-spacing: 2px;
+  color: #333333;
+  font-family: 'Lato' !important;
+  font-style: normal;
+  font-weight: 550;
+  letter-spacing: 0.02em;
+  color:#142a72;
+  margin-bottom: 1.5rem;
 }
