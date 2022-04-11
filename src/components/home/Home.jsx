@@ -26,6 +26,7 @@ const Home = () => {
               <a className="trynow-btn" href="#">
                 Try Now
               </a>
+              &nbsp;
               <a className="video-btn" href="#" onclick="openVideo()">
                 Watch Video
               </a>
@@ -126,14 +127,14 @@ const Home = () => {
           <div className="customer">
             <div className="customer-title">
               <h1 className="customer-text">
-                Customers look for solutions, a rather permanent one.
-                Anydone Desk helps you build a conversational bridge to fill the
-                gap.
+                Customers look for solutions, a rather permanent one. Anydone
+                Desk helps you build a conversational bridge to fill the gap.
               </h1>
               <div className="heading-button">
                 <a className="trynow-btn" href="#">
                   Try Now
                 </a>
+                &nbsp;
                 <a className="video-btn" href="#" onclick="openVideo()">
                   Watch Video
                 </a>

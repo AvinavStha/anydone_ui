@@ -96,6 +96,8 @@ const Footer = () => {
             <a href="" className="instagram social">
               <FontAwesomeIcon icon={faInstagram} size="2x" />
             </a>
+          </div>
+          <div className="c-socialLinks">
             <a href="" className="twitter social">
               <FontAwesomeIcon icon={faTwitter} size="2x" />
             </a>
@@ -104,6 +106,9 @@ const Footer = () => {
             </a>
           </div>
         </div>
+      </div>
+      <div className="copyright">
+        <h1>©2021 Anydone Desk. All Rights Reserved .</h1>
       </div>
     </>
   );

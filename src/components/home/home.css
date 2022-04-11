@@ -8,9 +8,9 @@
 
 .heading {
   background: url(../../assets/images/Background.png);
-  margin-bottom: 10px;
+  /* margin-bottom: 10px; */
   background-position: bottom;
-  /* background-repeat: no-repeat; */
+  background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
   height: 500px;
@@ -18,11 +18,14 @@
 }
 
 .heading-button {
-  padding: 20px !important;
-  text-align: center;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
 }
 
+
 .video-btn {
+  align-items: stretch;
   color: #376af5;
   background: #ffffff;
   border: 2px solid #376af5;
@@ -33,10 +36,12 @@
   line-height: 26px;
   letter-spacing: 1.5px;
   text-transform: uppercase;
-  padding: 20px 15px;
+  padding: 20px 10px;
 }
 
 .trynow-btn {
+  align-items: stretch;
+  text-align: center;
   background: #376af5;
   text-transform: uppercase;
   color: #ffffff;
@@ -47,7 +52,7 @@
   font-size: 22px;
   line-height: 26px;
   letter-spacing: 1.5px;
-  padding: 20px 40px;
+  padding: 20px 35px;
 }
 .video-btn:hover {
   box-shadow: 0 12px 16px 0 rgba(28, 31, 200, 0.24),
